@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const apiKey = 'api_key';
+    const apiKey = '1dc3c38cda57f4fa45498e3d9f598773';
     const apiUrl = `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=pt-BR&page=1`;
 
     fetch(apiUrl)
